@@ -1,5 +1,5 @@
 const request = require("request-promise");
-const cheerio = request("cheerio");
+const cheerio = require("cheerio");
 
 const URL = "https://www.imdb.com/title/tt0107426/?ref_=nv_sr_1?ref_=nv_sr_1";
 
